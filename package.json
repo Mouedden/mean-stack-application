@@ -1,0 +1,28 @@
+{
+  "name": "mean-stack-application",
+  "version": "1.0.0",
+  "description": "This is my first mean's stack application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mouedden/mean-stack-application.git"
+  },
+  "keywords": [
+    "MangoDB",
+    "Express",
+    "Angular",
+    "Node"
+  ],
+  "author": "Abdelkader MOUEDDEN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mouedden/mean-stack-application/issues"
+  },
+  "homepage": "https://github.com/Mouedden/mean-stack-application#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
