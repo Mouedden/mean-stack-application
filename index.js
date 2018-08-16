@@ -6,8 +6,13 @@ var app = express();
 app.set('view engine', 'ejs');
 var urlencodedParser = bodyParser.urlencoded({ extended: false});
 
-var publicPath = path.resolve(__dirname, "controllers");
+var publicPath = path.resolve(__dirname, 'controllers');
 app.use(express.static(publicPath));
+var imagesPath = path.resolve(__dirname, 'images');
+app.use("/images", express.static(imagesPath));
+var stylePath = path.resolve(__dirname, 'style');
+app.use("/style", express.static(stylePath));
+console.log(__dirname);
 
 app.get('/', function(req, res) {
   res.render('index');
